@@ -15,37 +15,82 @@
 
     <title>Stats preview card component</title>
   </head>
-  <body>
-    <div class="card">
-      <div class="card-text">
+  <body
+    class="min-h-screen flex items-center justify-center p-5 bg-navy-950 font-inter text-[15px] text-white"
+  >
+    <div
+      class="flex flex-col-reverse min-[486px]:flex-row w-full max-w-[1100px] bg-blue-950 rounded-[10px] overflow-hidden"
+    >
+      <div
+        class="flex flex-col justify-center items-center text-center min-[486px]:items-start min-[486px]:text-left min-[486px]:flex-1 px-6 py-10 min-[486px]:p-[60px]"
+      >
         <!-- heading -->
-        <h1>Get <span>insights</span> that help your business grow.</h1>
+
+        <h1 class="text-[25px] font-bold leading-[1.2] text-white">
+          Get <span class="text-purple-500">insights</span> that help your
+          business grow.
+        </h1>
+
         <!-- Text description -->
-        <p class="description">
+
+        <p
+          class="mt-6 mx-auto min-[486px]:mx-0 max-w-[350px] text-sm leading-[1.6] text-white/75"
+        >
           Discover the benefits of data analytics and make <br />
           better decisions regarding revenue, customer <br />
           experience, and overall efficiency.
         </p>
+
         <!-- Stats -->
-        <div class="stats">
-          <div class="stat">
-            <p class="number">10k+</p>
-            <p class="label">Companies</p>
+
+        <div
+          class="grid grid-cols-3 gap-4 w-full mt-10 min-[486px]:flex min-[486px]:w-auto min-[486px]:gap-[45px] min-[486px]:mt-[45px]"
+        >
+          <div class="text-center min-[486px]:text-left">
+            <p class="m-0 text-xl font-bold text-white">10k+</p>
+
+            <p
+              class="mt-1 font-lexend text-[10px] tracking-[2px] uppercase text-white/60"
+            >
+              Companies
+            </p>
           </div>
 
-          <div class="stat">
-            <p class="number">314</p>
-            <p class="label">Templates</p>
+          <div class="text-center min-[486px]:text-left">
+            <p class="m-0 text-xl font-bold text-white">314</p>
+            <p
+              class="mt-1 font-lexend text-[10px] tracking-[2px] uppercase text-white/60"
+            >
+              Templates
+            </p>
           </div>
 
-          <div class="stat">
-            <p class="number">12M+</p>
-            <p class="label">Queries</p>
+          <div class="text-center min-[486px]:text-left">
+            <p class="m-0 text-xl font-bold text-white">12M+</p>
+            <p
+              class="mt-1 font-lexend text-[10px] tracking-[2px] uppercase text-white/60"
+            >
+              Queries
+            </p>
           </div>
         </div>
       </div>
-      <div class="card-image">
-        <img src="./images/image-header-desktop.jpg" alt="Team working" />
+
+      <!-- images -->
+
+      <div
+        class="relative isolate h-[250px] min-[486px]:h-auto min-[486px]:flex-1"
+      >
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="Team working"
+          class="block w-full h-full object-cover grayscale rounded-[10px]"
+        />
+
+        <!-- purple overlay -->
+        <div
+          class="absolute inset-0 z-[1] bg-purple-500 mix-blend-multiply"
+        ></div>
       </div>
     </div>
   </body>

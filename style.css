@@ -19,7 +19,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/* 
 body {
   margin: 0;
   min-height: 100vh;
@@ -42,7 +42,7 @@ body {
   overflow: hidden;
 }
 /* Texts description*/
-
+/* 
 .card-text {
   flex: 1;
   padding: 60px;
@@ -68,10 +68,10 @@ h1 span {
   max-width: 350px;
   line-height: 1.6;
   font-size: 14px;
-}
+} */
 
 /* Stats Description */
-
+/* 
 .stats {
   display: flex;
   gap: 45px;
@@ -108,19 +108,19 @@ h1 span {
   object-fit: cover;
   filter: grayscale(100%);
   border-radius: 10px;
-}
+} */
 
 /* purpule color on the photo */
-.card-image::after {
+/* .card-image::after {
   position: absolute;
   content: "";
   background: var(--Purple-500);
   mix-blend-mode: multiply;
   inset: 0;
   z-index: 1;
-}
+} */
 
-/* mobile screen (485px) */
+/* mobile screen (485px)
 @media (max-width: 485px) {
   .card {
     flex-direction: column-reverse;
@@ -153,4 +153,4 @@ h1 span {
   .stat {
     text-align: center;
   }
-}
+}  */
